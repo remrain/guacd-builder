@@ -39,7 +39,7 @@ ARG BUILD_DEPENDENCIES="              \
         automake                      \
         gcc                           \
         libcairo2-dev                 \
-        libfreerdp-dev                \
+        libfreerdp2-2                 \
         libjpeg62-turbo-dev           \
         libossp-uuid-dev              \
         libpango1.0-dev               \
