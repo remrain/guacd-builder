@@ -23,7 +23,7 @@
 
 
 # Use Debian as base for the build
-ARG DEBIAN_VERSION=stable
+ARG DEBIAN_VERSION=stretch
 FROM debian:${DEBIAN_VERSION} AS builder
 
 # Base directory for installed build artifacts.
@@ -39,7 +39,7 @@ ARG BUILD_DEPENDENCIES="              \
         automake                      \
         gcc                           \
         libcairo2-dev                 \
-        libfreerdp2-2                 \
+        libfreerdp-dev                \
         libjpeg62-turbo-dev           \
         libossp-uuid-dev              \
         libpango1.0-dev               \
